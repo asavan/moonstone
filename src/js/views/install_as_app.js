@@ -12,6 +12,10 @@ function showElem(el) {
 
 export default function install(window, document) {
     const btnAdd = document.querySelector(".butInstall");
+    if (!btnAdd) {
+        console.log("No button add");
+        return;
+    }
     let deferredPrompt;
     btnAdd.addEventListener("click", (e) => {
         e.preventDefault();
