@@ -1,21 +1,35 @@
 {
   "name": "The Moonstone app",
   "short_name": "moonstone",
-    "icons": [
-        {
-          "src": "./images/diamond-color-icon.svg",
-          "sizes": "any",
-          "type": "image/svg+xml",
-          "purpose": "any maskable"
-        },
-        {
-          "src": "./images/icon512.png",
-          "sizes": "512x512",
-          "type": "image/png"
-        }
-    ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "start_url": "./",
-    "display": "standalone"
+  "screenshots": [
+    {
+      "src": "./screen1.png",
+      "sizes": "830x1401",
+      "type": "image/png",
+      "label": "Homescreen of Moonstone App"
+    }
+  ],
+  "icons": [
+    {
+      "src": "./images/diamond-color-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./images/diamond-color-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./images/icon512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "start_url": "./",
+  "display": "standalone"
 }

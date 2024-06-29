@@ -41,6 +41,7 @@ const devConfig = () => {
                     { from: "./src/images", to: "./images" },
                     { from: "./src/manifest.json", to: "./" },
                     { from: "./src/data/cruzo.txt_Ascii.txt", to: "./" },
+                    { from: "./screenshots/", to: "./" },
                     { from: "./.well-known", to: "./.well-known" }
                 ],
             })
