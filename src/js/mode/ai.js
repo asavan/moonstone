@@ -5,7 +5,7 @@ export default async function ai({document, rngEngine}) {
 
     const myRequest = new Request("./cruzo.txt_Ascii.txt");
     const text = await fetch(myRequest).then((response) => response.text());
-    const sentences = text.split(/[\\.!\?]/);
+    const sentences = text.split(/[\\.!\\?]/);
 
     const randSentence = rngFunc.randomEl(sentences, rngEngine);
     myArticle.textContent = randSentence.trim();

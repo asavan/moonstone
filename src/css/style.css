@@ -27,25 +27,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 2rem;
-}
-
-blockquote::before {
-  content: open-quote;
-}
-blockquote::after {
-  content: close-quote;
-}
-blockquote {
-  quotes: "“" "”" "‘" "’";
-}
-
-body {
   max-width: 20em;
   margin: 1em;
   font: 1.8rem/1.4 Georgia, serif;
 }
 
+blockquote::before { content: open-quote; }
+
+blockquote::after { content: close-quote; }
+
+blockquote { quotes: "“" "”" "‘" "’"; }
 
 .qrcode.big {
   position: absolute;
@@ -109,7 +100,6 @@ body {
   max-height: 30%;
   overflow: auto;
 }
-
 
 .transparent { opacity: 0; }
 
