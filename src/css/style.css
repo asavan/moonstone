@@ -31,7 +31,7 @@ body {
   font: 1.8rem/1.4 Georgia, serif;
 }
 
-.container { 
+.container {
   padding: 1em;
   display: grid;
   grid-template-rows: 2fr 1fr;
