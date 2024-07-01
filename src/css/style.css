@@ -31,7 +31,32 @@ body {
   font: 1.8rem/1.4 Georgia, serif;
 }
 
-.container { padding: 1em; }
+.container { 
+  padding: 1em;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  height: 100%;
+}
+
+.img-cont {
+  display: grid;
+  place-items: center;
+  user-select: none;
+}
+
+:popover-open {
+  margin: auto;
+  color: white;
+  padding: 0.25em;
+  opacity: 0.8;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.main-img {
+  width: 200px;
+  cursor: pointer;
+}
 
 blockquote::before { content: open-quote; }
 
