@@ -1,0 +1,70 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="395.82dp"
+    android:viewportWidth="512"
+    android:viewportHeight="395.82">
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M336.99,124.7L419.01,4.88c3.46,-5.07 10.38,-6.38 15.45,-2.92a11.05,11.05 0,0 1,3.26 3.45l72.67,120.45c3.17,5.26 1.48,12.11 -3.79,15.28a11.09,11.09 0,0 1,-5.75 1.6l-155.11,0.01c-6.16,0 -11.15,-4.99 -11.15,-11.15 0,-2.61 0.89,-5.01 2.39,-6.9z"
+      android:fillType="nonZero"/>
+  <path
+      android:pathData="M345.74,131.6l82.45,-120.46 72.66,120.46z"
+      android:fillColor="#16B3E1"
+      android:fillType="evenOdd"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M340.95,122.64l159.91,-0.01c6.16,0 11.15,4.99 11.15,11.15 0,3.3 -1.43,6.26 -3.71,8.3L266.62,392.41c-4.26,4.42 -11.29,4.56 -15.72,0.3 -3.17,-3.05 -4.14,-7.53 -2.87,-11.45l82.33,-250.94c1.53,-4.7 5.89,-7.69 10.58,-7.7z"
+      android:fillType="nonZero"/>
+  <path
+      android:pathData="M340.95,133.77h159.91L258.61,384.7z"
+      android:fillColor="#16B3E1"
+      android:fillType="evenOdd"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M11.7,113.72l160.34,-0.05c5.05,0 9.31,3.37 10.66,7.99l86.45,259.56c1.92,5.82 -1.23,12.1 -7.05,14.02a11.1,11.1 0,0 1,-11.53 -2.89L3.09,132.49c-4.23,-4.45 -4.05,-11.48 0.39,-15.72a11.09,11.09 0,0 1,8.21 -3.05z"
+      android:fillType="nonZero"/>
+  <path
+      android:pathData="M11.15,124.82l160.89,-0.05 86.58,259.93z"
+      android:fillColor="#16B3E1"
+      android:fillType="evenOdd"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M2.5,117.74L84.78,4.62c3.61,-4.98 10.56,-6.09 15.54,-2.48a11.05,11.05 0,0 1,3.01 3.27l75.2,113.23c3.39,5.12 1.98,12.02 -3.14,15.41a11.08,11.08 0,0 1,-6.14 1.85v0.03H11.15C4.99,135.92 0,130.93 0,124.77c0,-2.66 0.94,-5.11 2.5,-7.03z"
+      android:fillType="nonZero"/>
+  <path
+      android:pathData="M11.15,124.77L93.79,11.15l75.46,113.63z"
+      android:fillColor="#16B3E1"
+      android:fillType="evenOdd"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M248.08,387.67l-86.29,-258.5a11.1,11.1 0,0 1,-0.9 -4.39c0,-6.16 4.99,-11.15 11.15,-11.15h167.36c1.1,0.02 2.21,0.18 3.31,0.52 5.86,1.83 9.14,8.06 7.31,13.93l-80.78,259.37c-1.04,3.28 -3.58,6.05 -7.1,7.23 -5.82,1.95 -12.12,-1.19 -14.06,-7.01z"
+      android:fillType="nonZero"/>
+  <path
+      android:pathData="M172.04,124.77l86.58,259.37 80.78,-259.37z"
+      android:fillColor="#2FBEED"
+      android:fillType="evenOdd"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M264.84,17.7l-80.91,115.6c-8.69,-7.95 -13.45,7.05 -18.3,-0.15L84.69,17.63c-3.51,-5.02 -2.28,-11.95 2.74,-15.46A11.04,11.04 0,0 1,93.79 0.17L255.88,0.04c6.13,0 11.1,4.97 11.1,11.1 0,2.45 -0.8,4.72 -2.14,6.55z"
+      android:fillType="nonZero"/>
+  <path
+      android:pathData="M255.88,11.15l-81.04,115.8L93.79,11.27z"
+      android:fillColor="#5FD4FB"
+      android:fillType="evenOdd"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M330.43,131.55l-83.07,-113.22a11.09,11.09 0,0 1,-2.63 -7.18C244.74,4.99 249.73,0 255.88,0h169.51c2.34,0.02 4.7,0.75 6.7,2.26 4.9,3.7 5.88,10.68 2.18,15.59l-86,113.83c-0.64,0.84 -1.41,1.61 -2.31,2.26 -4.95,3.63 -11.91,2.56 -15.54,-2.39z"
+      android:fillType="nonZero"/>
+  <path
+      android:pathData="M255.88,11.15l83.51,113.83 86,-113.83z"
+      android:fillColor="#5FD4FB"
+      android:fillType="evenOdd"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M163.53,117.57l83.22,-113c3.63,-4.95 10.59,-6.02 15.54,-2.39a11.14,11.14 0,0 1,2.52 2.57l83.55,113.45c3.63,4.95 2.56,11.91 -2.39,15.54a11.06,11.06 0,0 1,-6.57 2.15v0.03h-167.36c-6.16,0 -11.15,-4.99 -11.15,-11.15 0,-2.74 0.99,-5.26 2.64,-7.2zM255.72,29.9l-61.66,83.73h123.32l-61.66,-83.73z"
+      android:fillType="nonZero"/>
+  <path
+      android:pathData="M172.04,124.77l83.68,-113.63 83.68,113.63z"
+      android:fillColor="#66D7F7"
+      android:fillType="evenOdd"/>
+</vector>
