@@ -14,9 +14,9 @@
 },
 {
   "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {"namespace": "android_app", "package_name": "ru.asavan.drixit",
+  "target": {"namespace": "android_app", "package_name": "ru.asavan.moonstone",
     "sha256_cert_fingerprints": [
-      "F2:08:85:7A:66:90:A3:C8:90:68:0A:67:64:27:E2:D9:A4:B0:4A:C3:1E:F5:EA:AC:0C:01:14:C7:82:C8:D2:F1"
+      "EF:37:67:31:A1:44:BB:01:C6:E4:81:38:1A:2B:C3:86:BF:E2:54:F4:31:36:C9:28:20:B0:87:FA:45:EF:71:96"
     ]
   }
 }

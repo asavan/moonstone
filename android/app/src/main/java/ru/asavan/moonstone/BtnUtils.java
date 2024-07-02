@@ -72,7 +72,7 @@ public class BtnUtils {
     }
 
 
-    private void launchTwa(String host, Map<String, String> parameters) {
+    public void launchTwa(String host, Map<String, String> parameters) {
         startServerAndSocket();
         Uri launchUri = Uri.parse(UrlUtils.getLaunchUrl(host, parameters));
         TwaLauncher launcher = new TwaLauncher(activity);

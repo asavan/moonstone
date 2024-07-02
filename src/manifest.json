@@ -21,18 +21,13 @@
       "src": "./images/diamond-color-icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
-      "purpose": "maskable"
-    },
-    {
-      "src": "./images/diamond-color-icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
       "purpose": "any"
     },
     {
       "src": "./images/icon512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
   "theme_color": "#ffffff",
