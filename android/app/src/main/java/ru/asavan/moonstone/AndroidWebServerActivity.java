@@ -38,10 +38,6 @@ public class AndroidWebServerActivity extends Activity {
         final String host = hostUtils.getStaticHost(formattedIpAddress);
         {
             Map<String, String> mainParams = new LinkedHashMap<>();
-            btnUtils.addButtonTwa(WEB_GAME_URL, mainParams, R.id.twa_ai);
-            btnUtils.addButtonTwa(hostUtils.getStaticHost(IpUtils.LOCALHOST), mainParams, R.id.twa_ai_localhost);
-            btnUtils.addButtonWebView(WEB_VIEW_URL, mainParams, R.id.ai);
-            btnUtils.addButtonBrowser(host, mainParams, R.id.launch_browser);
             btnUtils.addButtonTwa(hostUtils.getStaticHost(IpUtils.LOCALHOST), mainParams, R.id.twa_real_ip, host);
             btnUtils.addButtonTwa(WEB_GAME_URL, mainParams, R.id.newest);
         }
