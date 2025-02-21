@@ -3,7 +3,7 @@ import sentences from "../loader.js";
 import storageFunc from "../stoage.js";
 import { delay } from "../utils/timer.js";
 
-function makeToast() {
+function makeToast(document, settings) {
     // Create an element and make it into a popover
     const popover = document.createElement("article");
     popover.popover = "manual";
@@ -23,7 +23,7 @@ function makeToast() {
     setTimeout(() => {
         popover.hidePopover();
         popover.remove();
-    }, 4000);
+    }, settings.toastDelay);
 
     // When a new toast appears, run the movetoastsUp() function
     popover.addEventListener("toggle", (event) => {
@@ -39,7 +39,7 @@ export default async function ai({document, window, settings, rngEngine}) {
     btn.addEventListener("click", (e) => {
         e.preventDefault();
         if (stoage.getClicks() >= settings.daylimit) {
-            makeToast();
+            makeToast(document, settings);
             return;
         }
         const randSentence = rngFunc.randomEl(sentences, rngEngine);
