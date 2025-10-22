@@ -1,13 +1,4 @@
 {
-    "files": {
-        "ignore": [
-            "src/js/lib/**"
-        ],
-        "include": [
-            "src/**",
-            "tests/**"
-        ]
-    },
     "formatter": {
         "enabled": true,
         "formatWithErrors": false,
@@ -15,8 +6,7 @@
         "indentWidth": 4,
         "lineEnding": "crlf",
         "lineWidth": 100,
-        "attributePosition": "auto",
-        "ignore": []
+        "attributePosition": "auto"
     },
     "linter": {
         "rules": {
