@@ -1,6 +1,6 @@
 {
   "name": "moonstone",
-  "version": "0.0.11",
+  "version": "0.1.0",
   "author": "Alex Sav",
   "description": "The Moonstone app",
   "private": true,
@@ -8,14 +8,13 @@
   "type": "module",
   "sideEffects": false,
   "scripts": {
-    "start": "webpack serve --config webpack_configs/webpack.config.js --mode development",
-    "all": "npm-run-all -p -r ws start",
+    "start": "webpack serve --config webpack_configs/webpack.config.js --mode development --color",
     "android": "webpack --config webpack_configs/android.webpack.config.js --mode production",
     "build": "webpack --config webpack_configs/production.webpack.config.js --mode production",
     "style": "npx eslint . -c linters/eslint.config.js",
     "style:fix": "npx eslint . -c linters/eslint.config.js --fix",
-    "style2": "npx stylelint --config linters/.stylelintrc.json \"src/**/*.css\"",
-    "style2:fix": "npx stylelint --config linters/.stylelintrc.json \"src/**/*.css\" --fix",
+    "style2": "npx stylelint --config linters/stylelint.config.js \"src/**/*.css\"",
+    "style2:fix": "npx stylelint --config linters/stylelint.config.js \"src/**/*.css\" --fix",
     "style3": "npx @biomejs/biome lint --config-path=./linters/biome.json ./src/",
     "style4": "npx dprint check --config ./linters/dprint.json ./src/css/**",
     "style4:fix": "npx dprint fmt --config ./linters/dprint.json ./src/css/**",
@@ -26,30 +25,14 @@
     "updates": "npx ncu",
     "updates:fix": "npx ncu -u && npm install && npm audit fix"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asavan/moonstone.git"
+  },
+  "homepage": "https://asavan.github.io/moonstone/",
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@stylistic/eslint-plugin-js": "^4.0.1",
-    "c8": "^10.1.3",
-    "copy-webpack-plugin": "^12.0.2",
-    "css-loader": "^7.1.2",
-    "css-minimizer-webpack-plugin": "^7.0.0",
-    "dependency-cruiser": "^16.10.0",
     "dprint": "^0.49.0",
-    "eslint": "^9.21.0",
-    "html-inline-css-webpack-plugin": "^1.11.2",
-    "html-webpack-plugin": "^5.6.3",
-    "jsdom": "^26.0.0",
-    "madge": "^8.0.0",
-    "mini-css-extract-plugin": "^2.9.2",
-    "npm-check-updates": "^17.1.15",
-    "npm-run-all": "^4.1.5",
-    "sharp": "^0.33.5",
-    "style-loader": "^4.0.0",
-    "stylelint": "^16.14.1",
-    "stylelint-config-standard": "^37.0.0",
-    "webpack": "^5.98.0",
-    "webpack-cli": "^6.0.1",
-    "webpack-dev-server": "^5.2.0",
-    "workbox-webpack-plugin": "^7.3.0"
+    "devdeps": "github:asavan/dev-deps#v0.0.5"
   }
 }

@@ -3,8 +3,13 @@
 ### Книги, подобной “Робинзону Крузо”, никогда не было и не будет написано.
 
 [![Test covered](https://github.com/asavan/moonstone/actions/workflows/static.yml/badge.svg)](https://github.com/asavan/moonstone/actions/workflows/static.yml)
+[![google play](https://img.shields.io/endpoint?color=green&logo=google-play&logoColor=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dru.asavan.moonstone%26gl%3DUS%26hl%3Den%26l%3D%24name%26m%3D%24version)](https://play.google.com/store/apps/details?id=ru.asavan.moonstone)
 
-![Moonstone](/screenshots/screen1.png "Moonstone")
+
+## Demo
+1                                              |                2                 |                        3                        | 4                                           
+:---------------------------------------------:|:--------------------------------:|:-----------------------------------------------:|:--------------------:
+![Moonstone1](/screenshots/3.png "play")       | ![Win](/screenshots/4.png "Win") | ![Moonstone1](/screenshots/screen1.png "play")  |  ![Win](/screenshots/screen2.png "Win")
 
 ## Зачем?
 У человека, который после этого не уверует в Робинзона Крузо, или недостает в мозгу винтика, или он отуманен самонадеянностью.

@@ -1,6 +1,6 @@
 import rngFunc from "../utils/random.js";
 import sentences from "../loader.js";
-import storageFunc from "../stoage.js";
+import storageFunc from "../storage.js";
 import { delay } from "../utils/timer.js";
 
 function makeToast(document, settings) {
